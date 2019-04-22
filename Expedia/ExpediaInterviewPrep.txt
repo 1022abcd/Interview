@@ -189,14 +189,38 @@ Technical Questions
         }
     ```
 7. Find the intersection of two array of integers
+    ```Java 
+        public static int[] intersectionOfTwoArray(int[] a, int[] b) {
+
+        }
+    ```
 8. Shuffle an array
+
 9. Pros and Cons of multiple inheritance
 10. Remove Duplicates from strings
+    ```Java 
+        public static String removeDuplicates(String str) { 
+            Set<Character> set = new HashSet<Character>();
+            StringBuilder sb = new StringBuilder();
+            for(int i = 0; i < str.length(); i++) { 
+                if(!set.contains(str.charAt(i))) {
+                    sb.append(str.charAt(i));
+                    set.add(str.charAt(i));
+                }
+            }
+            return sb.toString();
+        }
+    ```
 11. Stacks and Queues implementation
 12. Implement Poker
 13. DFS & BFS 
 14. TCP & UDP
 15. Remove Duplicates from array
+    ```Java
+        public static int[] removeDuplicates(int[] nums) { 
+            
+        }
+    ```
 16. Stack & Heap
 17. How can you find the common element of two linked list
 18. Find the longest contigious sequence with given  (5,4) (6,2) (9,3) (2,5) (4,9)
